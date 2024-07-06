@@ -75,20 +75,33 @@ a {
 
 /* ------------------------------ HEADER ----------------------- */
 
-.header {}
+.header {
+}
+.header .container {
+}
 
-.container {}
+.header-wrap {
+}
 
-.header-nav {}
+.header-nav {
+  display: flex;
+}
 
-.header-logo {}
+.header-logo {
+  /* flex-grow: 1; */
+  margin-right: auto;
+}
 
-.header-list {}
+.header-list {
+  display: flex;
+}
 
-.header-item {}
+.header-item {
+  margin-left: 30px;
+}
 
-.header-link {}
-
-
+.header-link {
+  /* margin-right: 30px; */
+}
 
 /* ----------------- HERO ---------------- */
